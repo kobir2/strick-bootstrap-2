@@ -1,0 +1,181 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+font-family: 'Lato', sans-serif;
+}
+
+section{
+    padding: 50px 0;
+}
+/* reuseable content */
+h2{
+    font-size: 35px;
+    color: #2d3950;
+}
+
+h3 {
+    font-size: 25px;
+    color: #2d3950;
+  }
+
+p{
+    color: #999999;
+}
+
+
+/* banner */
+.banner {
+    width: 100%;
+    overflow: hidden;
+    background: url(..//img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.role{
+    border-bottom: 2px solid #15a4fa;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.banner-btn{
+    background: transparent;
+    border: 1px solid #15a4fa;
+    
+}
+
+/* pure */
+        
+.pure {
+    width: 100%;
+    overflow: hidden;
+    background: #f6f9f9;
+    padding: 50px 0;
+}
+
+
+/* services */
+
+
+.service-icon{
+    background: linear-gradient(90deg, #48baff 50%, #5fc3ff 50%);
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+}
+.fa-mobile,
+.fa-paper-plane,
+.fa-bullhorn{
+    font-size: 50px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+/* feuture */
+
+.feuture {
+    background: #f6f9f9;
+}
+
+.title h2{
+    font-size: 25px;
+}
+
+
+.feuture-box{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.feuture-box img{
+    width: 100%;
+
+}
+
+.img-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;    
+    background: #209cea8a;
+    opacity: 0;
+    transition: all 1s;
+    cursor: pointer;
+
+}
+
+
+.img-content ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.img-content ul li{
+    
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.fa-search-plus,
+.fa-link {
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #fff;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.img-content:hover{
+    opacity: 1;
+    transform: scale(1.5);
+}
+
+/* contact */
+
+.contact{
+    overflow: hidden;
+    background: linear-gradient(#747a866b, #747a866b),url(..//img/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* footer */
+
+.f-icon{
+    text-align: right;
+}
+
+.f-icon ul li{
+    width: 50px;
+    height: 50px;
+    background: #15a4fa;
+    position: relative;
+}
+
+.f-icon ul li a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-google-plus,
+.fa-linkedin {
+    font-size: 20px;
+    color: #fff;
+}
+

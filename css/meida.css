@@ -1,0 +1,49 @@
+
+
+/* mobile device */
+
+@media (min-width: 320px) and (max-width: 500px){
+    .logo{
+        text-align: center;
+    }
+    .role{
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    .form-check-label {
+        font-size: 7px;
+    }
+    .f-text{
+        text-align: center;
+    }
+
+   .f-icon{
+       text-align: center;
+   }
+}
+
+/* small device */
+
+@media (min-width: 500.01px) and (max-width: 768px){
+
+}
+
+/* medium device */
+
+@media (min-width: 768.01px) and (max-width: 992px){
+
+}
+
+
+/* desktop device */
+
+@media (min-width: 992.01px) and (max-width: 1200px){
+
+}
+
+/* large device */
+
+@media (min-width: 1200.01px) {
+
+}
